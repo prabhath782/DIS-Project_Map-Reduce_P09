@@ -1,41 +1,33 @@
-#!/usr/bin python
 import sys
 
-reduceIn = open("mapOut.txt", "r")
-s = open("sorted.txt","r","w")
-reduceOut = open("reduceOut.txt", "w")
 
-
-
-lines = reduceIn.readlines()
-lines.sort()
-for line in lines:
-	s.write(line)
-
-total = 0
+continuingTotal = 0
+reducedTotal = 0
 oldKey = None
-count = 0
 
-for line in lines:
-	data: line.strip().split('\t')
-	if len(data)!= 2:
-		continue
-	pAge, pMedi = data
-	
-	
-    if oldKey and oldKey != pAge:        
-        reduceOut.write("{0}\t{1}\n".format(oldKey, total))
-        oldKey = pAge;
-        total = 0
-	if pMedi.equals("Continuing"):
-		total += 1
-	
-    oldKey = pAge            
-    
-	
-	if oldKey != None: 
-		reduceOut.write("{0}\t{1}\n".format(oldKey, total))
 
-reduceIn.close()
-s.close() 
-reduceOut.close() 
+for line in sys.stdin:
+    data_mapped = line.strip().split("\t")
+    if len(data_mapped) != 2:
+        # Something has gone wrong. Skip this line.
+        continue
+
+    thisKey, thisvalue = data_mapped
+
+
+    if oldKey and oldKey != thisKey:
+       # print "\tAge group of people:", oldKey, "\tNumber of people who have medication type: Continuing", continuingTotal, "\tNumber of people who have medication type reduced", reducedTotal
+	print oldKey, continuingTotal, reducedTotal
+        oldKey = thisKey;
+        continuingTotal = 0
+	reducedTotal = 0
+
+    oldKey = thisKey
+    if thisvalue == 'continuing':
+   	    continuingTotal += 1
+    elif thisvalue == 'reduced'
+        reducedTotal += 1
+
+if oldKey != None:
+    #print "\tAge group of people:", oldKey, "\tNumber of people who have medication type: Continuing", continuingTotal, "\tNumber of people who have medication type reduced", reducedTotal
+	print oldKey, continuingTotal, reducedTotal
