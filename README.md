@@ -16,7 +16,7 @@ Our dataset is subset of data on migraine treatments collected by Tammy Kostecki
 
 Prerequisites
 1.Download VMWare
-    Download and install from       https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0
+   Download and install from https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0
    Download and install VirtualBox from https://www.virtualbox.org/wiki/Downloads 
    Create the Virtual Machine:
 2.Python 
