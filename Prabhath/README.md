@@ -12,6 +12,8 @@ Dr.Denise Case
 Assistants
 Sai Sri Ravali Chinthareddy, Course Assistant
 
+Our dataset is subset of data on migraine treatments collected by Tammy Kostecki-Dillon. In our project we try to find out about the age groups of people and their medication type and headtype.
+
 Prerequisites
 1.Download VMWare
     Download and install from       https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0
