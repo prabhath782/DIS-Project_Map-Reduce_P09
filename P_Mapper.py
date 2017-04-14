@@ -1,5 +1,4 @@
-	
-		#!/usr/bin/ python
+#!/usr/bin/ python
 import sys
 import csv
 
@@ -9,9 +8,8 @@ for line in sys.stdin:
 
 	l = list(csv.reader([line])) [0]
 	if  not l[5].isdigit():
-		pass
+	 pass
 	else:
-		
 		val={
 		"num" : l[0],
 		"id": l[1] ,
@@ -23,6 +21,5 @@ for line in sys.stdin:
 		"medication" : l[7],
 		"headache" : l[8],
 		"sex" : l[9].strip()
-		}
-		print '{0}\t{1}'.format(l[5],l[7])
-
+	        }
+	print '{0}\t{1}'.format(l[5],l[7])

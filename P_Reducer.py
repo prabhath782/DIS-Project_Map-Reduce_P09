@@ -25,7 +25,7 @@ for line in sys.stdin:
     oldKey = thisKey
     if thisvalue == 'continuing':
    	    continuingTotal += 1
-    elif thisvalue == 'reduced'
+    elif thisvalue == 'reduced':
         reducedTotal += 1
 
 if oldKey != None:
