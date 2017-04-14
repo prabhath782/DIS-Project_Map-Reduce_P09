@@ -34,10 +34,12 @@ python mapper.py
 python sorter.py
 python reducer.py
 
-![repo1](https://cloud.githubusercontent.com/assets/23439048/25058478/696c74ee-213f-11e7-8266-d7bbf07865e9.PNG)
+Output files
 ![disp1](https://cloud.githubusercontent.com/assets/23439048/25058479/6de22a6e-213f-11e7-85c5-7c35fccdd2f2.PNG)
 ![dis2](https://cloud.githubusercontent.com/assets/23439048/25058480/7185e50c-213f-11e7-9c15-91b16d4f1718.PNG)
 
+Final Results
+![repo1](https://cloud.githubusercontent.com/assets/23439048/25058478/696c74ee-213f-11e7-8266-d7bbf07865e9.PNG)
  
 
 DATA & CITATIONS:
