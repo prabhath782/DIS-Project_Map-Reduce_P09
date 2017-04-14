@@ -12,18 +12,20 @@ Dr.Denise Case
 Assistants
 Sai Sri Ravali Chinthareddy, Course Assistant
 
+Our dataset is subset of data on migraine treatments collected by Tammy Kostecki-Dillon. In our project we try to find out about the age groups of people and their medication type and headtype.
+
 Prerequisites
 1.Download VMWare
     Download and install from       https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0
    Download and install VirtualBox from https://www.virtualbox.org/wiki/Downloads 
    Create the Virtual Machine:
-2. Python 
-3. Notepad++
+2.Python 
+3.Notepad++
 	
 Working on Repo:
-1.	Create a repo in cloud service (github or bitbucket).
-2.	Clone repo to local machine using link provided.
-3.	Create and make changes to files and push to cloud repo.
+1.Create a repo in cloud service (github or bitbucket).
+2.Clone repo to local machine using link provided.
+3.Create and make changes to files and push to cloud repo.
 
 How to run 
 Write code for mapper, reducer, and sorter for data set
@@ -34,17 +36,10 @@ python mapper.py
 python sorter.py
 python reducer.py
 
-Output files
 
-![disp1](https://cloud.githubusercontent.com/assets/23439048/25058479/6de22a6e-213f-11e7-85c5-7c35fccdd2f2.PNG)
-
-![dis2](https://cloud.githubusercontent.com/assets/23439048/25058480/7185e50c-213f-11e7-9c15-91b16d4f1718.PNG)
-
-Final Results
-
-![repo1](https://cloud.githubusercontent.com/assets/23439048/25058478/696c74ee-213f-11e7-8266-d7bbf07865e9.PNG)
+ Out-put and final results images are in folder seperatly
  
-
+ 
 DATA & CITATIONS:
 Refrences: http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/
 Course Slides
