@@ -19,13 +19,13 @@ Prerequisites
     Download and install from       https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0
    Download and install VirtualBox from https://www.virtualbox.org/wiki/Downloads 
    Create the Virtual Machine:
-2. Python 
-3. Notepad++
+2.Python 
+3.Notepad++
 	
 Working on Repo:
-1.	Create a repo in cloud service (github or bitbucket).
-2.	Clone repo to local machine using link provided.
-3.	Create and make changes to files and push to cloud repo.
+1.Create a repo in cloud service (github or bitbucket).
+2.Clone repo to local machine using link provided.
+3.Create and make changes to files and push to cloud repo.
 
 How to run 
 Write code for mapper, reducer, and sorter for data set
