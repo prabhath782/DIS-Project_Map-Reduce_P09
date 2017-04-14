@@ -38,6 +38,8 @@ python reducer.py
 
 
  Out-put and final results images are in folder seperatly
+ 
+ 
 DATA & CITATIONS:
 Refrences: http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/
 Course Slides
