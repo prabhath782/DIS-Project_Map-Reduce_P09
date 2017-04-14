@@ -38,11 +38,13 @@ python reducer.py
 
 
  Out-put images
+ 
 ![dis2](https://cloud.githubusercontent.com/assets/23439048/25058809/2277c2ba-2143-11e7-803e-f74108cd91dc.PNG)
 
 ![disp1](https://cloud.githubusercontent.com/assets/23439048/25058807/227587c0-2143-11e7-972b-b12bf1bfe953.PNG) 
 
 Final Results.
+
 ![repo1](https://cloud.githubusercontent.com/assets/23439048/25058808/2276ca2c-2143-11e7-8c9a-7edbc38b226a.PNG)
 
  
