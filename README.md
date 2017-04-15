@@ -43,7 +43,7 @@ python sorter.py
 python reducer.py
 
 
- Out-put images
+ Out-put images Map-Reduce 1
  
 ![dis2](https://cloud.githubusercontent.com/assets/23439048/25058809/2277c2ba-2143-11e7-803e-f74108cd91dc.PNG)
 
@@ -52,6 +52,23 @@ python reducer.py
 Final Results.
 
 ![repo1](https://cloud.githubusercontent.com/assets/23439048/25058808/2276ca2c-2143-11e7-8c9a-7edbc38b226a.PNG)
+
+
+Out-put images Map-Reduce 2
+
+Mapper:
+
+![mapper](https://cloud.githubusercontent.com/assets/25209715/25059669/6cb8a56c-2150-11e7-8ea1-065542ebc3d9.PNG)
+
+
+Reducer:
+
+![reducer](https://cloud.githubusercontent.com/assets/25209715/25059638/e70fed9e-214f-11e7-9e1f-f2cb8160b8c5.PNG)
+
+
+Results Graph:
+
+![results](https://cloud.githubusercontent.com/assets/25209715/25059691/a7bfb830-2150-11e7-972d-c0d4c0250be9.PNG)
 
  
  
