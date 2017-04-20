@@ -38,8 +38,11 @@ Write code for mapper, reducer, and sorter for data set
 
 Run commands in command prompt
 python --version
+
 python mapper.py
+
 python sorter.py
+
 python reducer.py
 
 
